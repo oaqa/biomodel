@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Sat Sep 01 09:19:16 EDT 2012 */
+/* First created by JCasGen Mon Oct 08 18:14:50 EDT 2012 */
 package edu.cmu.lti.bio;
 
 import org.apache.uima.jcas.JCas;
@@ -12,10 +12,11 @@ import org.apache.uima.cas.Type;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Mon Oct 08 17:55:45 EDT 2012
+ * Updated by JCasGen Mon Oct 08 18:14:50 EDT 2012
  * @generated */
 public class Sentence_Type extends Annotation_Type {
   /** @generated */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -34,9 +35,11 @@ public class Sentence_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = Sentence.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("edu.cmu.lti.bio.Sentence");
 
 

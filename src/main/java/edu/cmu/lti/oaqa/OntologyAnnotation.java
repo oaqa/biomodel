@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Sat Sep 01 09:19:16 EDT 2012 */
+/* First created by JCasGen Mon Oct 08 18:14:56 EDT 2012 */
 package edu.cmu.lti.oaqa;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,24 +11,27 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Sat Sep 01 09:19:16 EDT 2012
- * XML source: /Users/elmer/Documents/workspace/bio-model/src/main/resources/edu/cmu/lti/oaqa/bio/model/bioTypes.xml
+ * Updated by JCasGen Mon Oct 08 18:14:56 EDT 2012
+ * XML source: /home/yangzi/QA/biomodel/src/main/resources/edu/cmu/lti/oaqa/bio/model/BioTypes.xml
  * @generated */
 public class OntologyAnnotation extends Annotation {
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = JCasRegistry.register(OntologyAnnotation.class);
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
   /** @generated  */
+  @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
   /** Never called.  Disable default constructor
    * @generated */
-  protected OntologyAnnotation() {}
+  protected OntologyAnnotation() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
    * @generated */
@@ -55,7 +58,7 @@ public class OntologyAnnotation extends Annotation {
     * Write your own initialization here
     * <!-- end-user-doc -->
   @generated modifiable */
-  private void readObject() {}
+  private void readObject() {/*default - does nothing empty block */}
      
  
     
