@@ -9,7 +9,7 @@
       <name>edu.cmu.lti.oaqa.Token</name>
       <description>This type contains information for both token and
 				phrase.</description>
-      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <supertypeName>org.oaqa.model.QueryConcept</supertypeName>
       <features>
         <featureDescription>
           <name>sequence</name>
@@ -43,7 +43,7 @@
     <typeDescription>
       <name>edu.cmu.lti.oaqa.ExternalResource</name>
       <description>External resource including ontology</description>
-      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <supertypeName>org.oaqa.model.OAQATop</supertypeName>
       <features>
         <featureDescription>
           <name>concept</name>
@@ -72,7 +72,7 @@
       <name>edu.cmu.lti.oaqa.TagInfo</name>
       <description>Tag that associates with a token from a particular NLP
 				tool</description>
-      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <supertypeName>org.oaqa.model.OAQATop</supertypeName>
       <features>
         <featureDescription>
           <name>tag</name>

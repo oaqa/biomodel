@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Mon Oct 08 18:15:01 EDT 2012 */
+/* First created by JCasGen Thu Oct 11 11:50:58 EDT 2012 */
 package edu.cmu.lti.bio;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,7 +11,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** Stores detailed information about the original source document for the bio medical domain.
- * Updated by JCasGen Mon Oct 08 18:15:01 EDT 2012
+ * Updated by JCasGen Thu Oct 11 11:50:58 EDT 2012
  * XML source: /home/yangzi/QA/biomodel/src/main/resources/edu/cmu/lti/oaqa/bio/model/BioSourceDocumentInformation.xml
  * @generated */
 public class BioSourceDocumentInformation extends Annotation {

@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Oct 08 18:14:56 EDT 2012 */
+/* First created by JCasGen Thu Oct 11 11:54:15 EDT 2012 */
 package edu.cmu.lti.bio.trec;
 
 import org.apache.uima.jcas.JCas;
@@ -12,7 +12,7 @@ import org.apache.uima.cas.Type;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Mon Oct 08 18:14:56 EDT 2012
+ * Updated by JCasGen Thu Oct 11 11:54:15 EDT 2012
  * @generated */
 public class LegalSpan_Type extends Annotation_Type {
   /** @generated */

@@ -21,10 +21,9 @@
 	</repositories>
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.uima</groupId>
-			<artifactId>uimaj-core</artifactId>
-			<version>2.3.1</version>
-			<type>jar</type>
+			<groupId>edu.cmu.lti.oaqa.bio.core</groupId>
+			<artifactId>baseqa</artifactId>
+			<version>1.7.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<build>

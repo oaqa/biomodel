@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Mon Oct 08 18:14:56 EDT 2012 */
+/* First created by JCasGen Thu Oct 11 11:54:15 EDT 2012 */
 package edu.cmu.lti.oaqa;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Mon Oct 08 18:14:56 EDT 2012
- * XML source: /home/yangzi/QA/biomodel/src/main/resources/edu/cmu/lti/oaqa/bio/model/BioTypes.xml
+ * Updated by JCasGen Thu Oct 11 11:54:15 EDT 2012
+ * XML source: /home/yangzi/QA/biomodel/src/main/resources/edu/cmu/lti/oaqa/bio/model/OldBioTypes.xml
  * @generated */
 public class OntologyAnnotation extends Annotation {
   /** @generated

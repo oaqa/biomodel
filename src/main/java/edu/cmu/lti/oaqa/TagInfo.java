@@ -1,21 +1,21 @@
 
 
-/* First created by JCasGen Mon Oct 08 19:13:59 EDT 2012 */
+/* First created by JCasGen Thu Oct 11 11:48:24 EDT 2012 */
 package edu.cmu.lti.oaqa;
 
 import org.apache.uima.jcas.JCas; 
 import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.cas.TOP_Type;
 
-import org.apache.uima.jcas.tcas.Annotation;
+import org.oaqa.model.OAQATop;
 
 
 /** Tag that associates with a token from a particular NLP
 				tool
- * Updated by JCasGen Mon Oct 08 19:13:59 EDT 2012
+ * Updated by JCasGen Thu Oct 11 11:48:24 EDT 2012
  * XML source: /home/yangzi/QA/biomodel/src/main/resources/edu/cmu/lti/oaqa/bio/model/BioTypes.xml
  * @generated */
-public class TagInfo extends Annotation {
+public class TagInfo extends OAQATop {
   /** @generated
    * @ordered 
    */
@@ -46,14 +46,6 @@ public class TagInfo extends Annotation {
     super(jcas);
     readObject();   
   } 
-
-  /** @generated */  
-  public TagInfo(JCas jcas, int begin, int end) {
-    super(jcas);
-    setBegin(begin);
-    setEnd(end);
-    readObject();
-  }   
 
   /** <!-- begin-user-doc -->
     * Write your own initialization here

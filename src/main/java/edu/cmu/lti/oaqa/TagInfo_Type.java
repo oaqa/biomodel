@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Oct 08 19:13:59 EDT 2012 */
+/* First created by JCasGen Thu Oct 11 11:48:24 EDT 2012 */
 package edu.cmu.lti.oaqa;
 
 import org.apache.uima.jcas.JCas;
@@ -11,13 +11,13 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
-import org.apache.uima.jcas.tcas.Annotation_Type;
+import org.oaqa.model.OAQATop_Type;
 
 /** Tag that associates with a token from a particular NLP
 				tool
- * Updated by JCasGen Mon Oct 08 19:13:59 EDT 2012
+ * Updated by JCasGen Thu Oct 11 11:48:24 EDT 2012
  * @generated */
-public class TagInfo_Type extends Annotation_Type {
+public class TagInfo_Type extends OAQATop_Type {
   /** @generated */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}

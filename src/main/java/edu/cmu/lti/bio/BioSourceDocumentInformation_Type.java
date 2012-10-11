@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Oct 08 18:15:01 EDT 2012 */
+/* First created by JCasGen Thu Oct 11 11:50:58 EDT 2012 */
 package edu.cmu.lti.bio;
 
 import org.apache.uima.jcas.JCas;
@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Stores detailed information about the original source document for the bio medical domain.
- * Updated by JCasGen Mon Oct 08 18:15:01 EDT 2012
+ * Updated by JCasGen Thu Oct 11 11:50:58 EDT 2012
  * @generated */
 public class BioSourceDocumentInformation_Type extends Annotation_Type {
   /** @generated */

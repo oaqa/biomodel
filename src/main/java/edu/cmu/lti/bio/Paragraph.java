@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Mon Oct 08 18:14:50 EDT 2012 */
+/* First created by JCasGen Thu Oct 11 11:51:06 EDT 2012 */
 package edu.cmu.lti.bio;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,7 +11,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Mon Oct 08 18:14:50 EDT 2012
+ * Updated by JCasGen Thu Oct 11 11:51:06 EDT 2012
  * XML source: /home/yangzi/QA/biomodel/src/main/resources/edu/cmu/lti/oaqa/bio/model/DocumentTypes.xml
  * @generated */
 public class Paragraph extends Annotation {

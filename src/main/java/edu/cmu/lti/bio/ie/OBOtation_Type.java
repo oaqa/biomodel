@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Oct 08 18:14:44 EDT 2012 */
+/* First created by JCasGen Thu Oct 11 11:51:12 EDT 2012 */
 package edu.cmu.lti.bio.ie;
 
 import org.apache.uima.jcas.JCas;
@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Ontology annotation from Open Biological Ontology format file.  Labels a word as having been found in the list of [Term]s contained in an OBO format ontology, as well as the name of the ontology file in which it was found.
- * Updated by JCasGen Mon Oct 08 18:14:44 EDT 2012
+ * Updated by JCasGen Thu Oct 11 11:51:12 EDT 2012
  * @generated */
 public class OBOtation_Type extends Annotation_Type {
   /** @generated */
