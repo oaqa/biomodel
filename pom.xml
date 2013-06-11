@@ -23,7 +23,7 @@
 		<dependency>
 			<groupId>edu.cmu.lti.oaqa.bio.core</groupId>
 			<artifactId>baseqa</artifactId>
-			<version>1.7.1-SNAPSHOT</version>
+			<version>1.10.2-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<build>
