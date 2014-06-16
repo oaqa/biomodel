@@ -15,5 +15,10 @@
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
     </typeDescription>
+    <typeDescription>
+      <name>edu.cmu.lti.bio.trec.LegalSpan</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
   </types>
 </typeSystemDescription>

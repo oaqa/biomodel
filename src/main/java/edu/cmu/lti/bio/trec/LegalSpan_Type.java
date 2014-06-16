@@ -12,7 +12,7 @@ import org.apache.uima.cas.Type;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Thu Oct 11 11:54:15 EDT 2012
+ * Updated by JCasGen Sun Jun 15 20:07:10 EDT 2014
  * @generated */
 public class LegalSpan_Type extends Annotation_Type {
   /** @generated */
